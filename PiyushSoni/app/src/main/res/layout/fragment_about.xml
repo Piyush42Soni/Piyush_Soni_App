@@ -40,7 +40,7 @@
             android:layout_height="100dp"
             android:layout_centerHorizontal="true"
             android:layout_marginStart="15dp"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="55dp"
             android:elevation="12dp"
             android:innerRadius="0dp"
             android:shape="ring"
@@ -75,7 +75,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="15dp"
-            android:layout_marginTop="25dp"
+            android:layout_marginTop="30dp"
             android:text="About"
             android:textSize="25sp"
             app:layout_constraintBottom_toTopOf="@+id/card3"
@@ -157,7 +157,7 @@
 
                     <!-- Title, secondary and supporting text -->
                     <TextView
-                        android:layout_marginTop="25dp"
+                        android:layout_marginTop="30dp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/college"
@@ -226,8 +226,8 @@
                     <ProgressBar
                         android:id="@+id/progressBar"
                         style="?android:attr/progressBarStyle"
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
+                        android:layout_width="72dp"
+                        android:layout_height="68dp"
                         android:indeterminateOnly="false"
                         android:progress="95"
                         android:progressDrawable="@drawable/circle"
@@ -266,8 +266,8 @@
                     <ProgressBar
                         android:id="@+id/progressBar1"
                         style="?android:attr/progressBarStyle"
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
+                        android:layout_width="85dp"
+                        android:layout_height="75dp"
                         android:indeterminateOnly="false"
                         android:progress="80"
                         android:progressDrawable="@drawable/circle"
@@ -306,8 +306,8 @@
                     <ProgressBar
                         android:id="@+id/progressBar2"
                         style="?android:attr/progressBarStyle"
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
+                        android:layout_width="80dp"
+                        android:layout_height="78dp"
                         android:indeterminateOnly="false"
                         android:progress="80"
                         android:progressDrawable="@drawable/circle"
@@ -346,8 +346,8 @@
                     <ProgressBar
                         android:id="@+id/progressBar3"
                         style="?android:attr/progressBarStyle"
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
+                        android:layout_width="72dp"
+                        android:layout_height="68dp"
                         android:indeterminateOnly="false"
                         android:progress="80"
                         android:progressDrawable="@drawable/circle"
@@ -368,8 +368,8 @@
 
                     <ImageView
                         android:id="@+id/imageView103"
-                        android:layout_width="25dp"
-                        android:layout_height="25dp"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
                         app:layout_constraintBottom_toBottomOf="@+id/progressBar3"
                         app:layout_constraintEnd_toEndOf="@+id/progressBar3"
                         app:layout_constraintStart_toStartOf="@+id/progressBar3"
@@ -386,8 +386,8 @@
                     <ProgressBar
                         android:id="@+id/progressBar4"
                         style="?android:attr/progressBarStyle"
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
+                        android:layout_width="85dp"
+                        android:layout_height="76dp"
                         android:indeterminateOnly="false"
                         android:progress="95"
                         android:progressDrawable="@drawable/circle"
@@ -408,8 +408,8 @@
 
                     <ImageView
                         android:id="@+id/imageView104"
-                        android:layout_width="25dp"
-                        android:layout_height="25dp"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
                         app:layout_constraintBottom_toBottomOf="@+id/progressBar4"
                         app:layout_constraintEnd_toEndOf="@+id/progressBar4"
                         app:layout_constraintStart_toStartOf="@+id/progressBar4"
@@ -426,8 +426,8 @@
                     <ProgressBar
                         android:id="@+id/progressBar5"
                         style="?android:attr/progressBarStyle"
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
+                        android:layout_width="80dp"
+                        android:layout_height="78dp"
                         android:indeterminateOnly="false"
                         android:progress="90"
                         android:progressDrawable="@drawable/circle"
@@ -466,8 +466,8 @@
                     <ProgressBar
                         android:id="@+id/progressBar6"
                         style="?android:attr/progressBarStyle"
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
+                        android:layout_width="72dp"
+                        android:layout_height="67dp"
                         android:indeterminateOnly="false"
                         android:progress="90"
                         android:progressDrawable="@drawable/circle"
@@ -488,8 +488,8 @@
 
                     <ImageView
                         android:id="@+id/imageView106"
-                        android:layout_width="25dp"
-                        android:layout_height="25dp"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
                         app:layout_constraintBottom_toBottomOf="@+id/progressBar6"
                         app:layout_constraintEnd_toEndOf="@+id/progressBar6"
                         app:layout_constraintStart_toStartOf="@+id/progressBar6"
@@ -506,8 +506,8 @@
                     <ProgressBar
                         android:id="@+id/progressBar7"
                         style="?android:attr/progressBarStyle"
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
+                        android:layout_width="85dp"
+                        android:layout_height="75dp"
                         android:indeterminateOnly="false"
                         android:progress="65"
                         android:progressDrawable="@drawable/circle"
@@ -528,8 +528,8 @@
 
                     <ImageView
                         android:id="@+id/imageView107"
-                        android:layout_width="25dp"
-                        android:layout_height="25dp"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
                         app:layout_constraintBottom_toBottomOf="@+id/progressBar7"
                         app:layout_constraintEnd_toEndOf="@+id/progressBar7"
                         app:layout_constraintStart_toStartOf="@+id/progressBar7"
@@ -546,8 +546,8 @@
                     <ProgressBar
                         android:id="@+id/progressBar8"
                         style="?android:attr/progressBarStyle"
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
+                        android:layout_width="80dp"
+                        android:layout_height="78dp"
                         android:indeterminateOnly="false"
                         android:progress="70"
                         android:progressDrawable="@drawable/circle"
@@ -568,8 +568,8 @@
 
                     <ImageView
                         android:id="@+id/imageView108"
-                        android:layout_width="25dp"
-                        android:layout_height="25dp"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
                         app:layout_constraintBottom_toBottomOf="@+id/progressBar8"
                         app:layout_constraintEnd_toEndOf="@+id/progressBar8"
                         app:layout_constraintStart_toStartOf="@+id/progressBar8"
@@ -580,15 +580,15 @@
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_marginBottom="15dp"
                     android:layout_rowWeight="1"
-                    android:layout_columnWeight="1">
+                    android:layout_columnWeight="1"
+                    android:layout_marginBottom="15dp">
 
                     <ProgressBar
                         android:id="@+id/progressBar9"
                         style="?android:attr/progressBarStyle"
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
+                        android:layout_width="72dp"
+                        android:layout_height="67dp"
                         android:indeterminateOnly="false"
                         android:progress="90"
                         android:progressDrawable="@drawable/circle"
@@ -609,8 +609,8 @@
 
                     <ImageView
                         android:id="@+id/imageView109"
-                        android:layout_width="25dp"
-                        android:layout_height="25dp"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
                         app:layout_constraintBottom_toBottomOf="@+id/progressBar9"
                         app:layout_constraintEnd_toEndOf="@+id/progressBar9"
                         app:layout_constraintStart_toStartOf="@+id/progressBar9"
@@ -619,17 +619,18 @@
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
                 <androidx.constraintlayout.widget.ConstraintLayout
-                    android:layout_width="match_parent"
+                    android:layout_width="85dp"
                     android:layout_height="match_parent"
-                    android:layout_marginBottom="15dp"
                     android:layout_rowWeight="1"
-                    android:layout_columnWeight="1">
+                    android:layout_columnWeight="1"
+                    android:layout_marginBottom="15dp"
+                    tools:layout_editor_absoluteX="75dp">
 
                     <ProgressBar
                         android:id="@+id/progressBar10"
                         style="?android:attr/progressBarStyle"
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
+                        android:layout_width="85dp"
+                        android:layout_height="74dp"
                         android:indeterminateOnly="false"
                         android:progress="90"
                         android:progressDrawable="@drawable/circle"
@@ -650,8 +651,8 @@
 
                     <ImageView
                         android:id="@+id/imageView110"
-                        android:layout_width="25dp"
-                        android:layout_height="25dp"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
                         app:layout_constraintBottom_toBottomOf="@+id/progressBar10"
                         app:layout_constraintEnd_toEndOf="@+id/progressBar10"
                         app:layout_constraintStart_toStartOf="@+id/progressBar10"
@@ -662,15 +663,15 @@
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_marginBottom="15dp"
                     android:layout_rowWeight="1"
-                    android:layout_columnWeight="1">
+                    android:layout_columnWeight="1"
+                    android:layout_marginBottom="15dp">
 
                     <ProgressBar
                         android:id="@+id/progressBar11"
                         style="?android:attr/progressBarStyle"
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
+                        android:layout_width="80dp"
+                        android:layout_height="77dp"
                         android:indeterminateOnly="false"
                         android:progress="75"
                         android:progressDrawable="@drawable/circle"
@@ -691,8 +692,8 @@
 
                     <ImageView
                         android:id="@+id/imageView111"
-                        android:layout_width="25dp"
-                        android:layout_height="25dp"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
                         app:layout_constraintBottom_toBottomOf="@+id/progressBar11"
                         app:layout_constraintEnd_toEndOf="@+id/progressBar11"
                         app:layout_constraintStart_toStartOf="@+id/progressBar11"
@@ -708,7 +709,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
             android:layout_marginStart="15dp"
-            android:text="Contact"
+            android:text="Profiles/websites"
             android:textSize="25sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/card" />
@@ -734,7 +735,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
                 android:rowCount="1"
-                android:columnCount="2">
+                android:columnCount="5">
                     <ImageButton
                         android:id="@+id/codechefButton"
                         android:foreground="?attr/selectableItemBackgroundBorderless"
@@ -743,9 +744,61 @@
                         android:id="@+id/linkedinButton"
                         android:foreground="?attr/selectableItemBackgroundBorderless"
                         android:src="@drawable/linkedin" />
+                    <ImageButton
+                        android:id="@+id/codeforcesButton"
+                        android:foreground="?attr/selectableItemBackgroundBorderless"
+                        android:src="@drawable/codeforces" />
+                    <ImageButton
+                        android:id="@+id/GithubButton"
+                        android:foreground="?attr/selectableItemBackgroundBorderless"
+                        android:src="@drawable/github" />
+                    <ImageButton
+                        android:id="@+id/hakerrankButton"
+                        android:foreground="?attr/selectableItemBackgroundBorderless"
+                        android:src="@drawable/hackerrank" />
                 </GridLayout>
             </HorizontalScrollView>
 
+        </com.google.android.material.card.MaterialCardView>
+        <TextView
+            android:id="@+id/contacted"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:text="Contact"
+            app:layout_constraintTop_toBottomOf="@+id/card4"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"/>
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card5"
+            app:layout_constraintTop_toBottomOf="@+id/contacted"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            app:cardElevation="0dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:strokeColor="@color/material_on_surface_stroke"
+            app:strokeWidth="1dp"
+            tools:layout_editor_absoluteY="199dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="Email: piyush32soni@gmail.com"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView"
+                    app:layout_constraintVertical_bias="0.029" />
+            </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
     </androidx.constraintlayout.widget.ConstraintLayout>
 
