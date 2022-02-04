@@ -2,12 +2,14 @@
 <layout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:app2="http://schema.android.com/apk/res/res-auto"
     android:background="#F5F5F5"
     xmlns:tools="http://schemas.android.com/tools">
 <ScrollView
-
+    android:id="@+id/scrollhai"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+
     <androidx.constraintlayout.widget.ConstraintLayout
 
         android:layout_width="match_parent"
@@ -33,6 +35,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
         </LinearLayout>
+
         <androidx.cardview.widget.CardView
             android:id="@+id/view2"
             style="@style/Widget.Material3.CardView.Outlined"
@@ -85,13 +88,13 @@
 
         <com.google.android.material.card.MaterialCardView
             android:id="@+id/card3"
-            app:layout_constraintTop_toBottomOf="@+id/about"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
             app:cardElevation="0dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/about"
             app:strokeColor="@color/material_on_surface_stroke"
             app:strokeWidth="1dp"
             tools:layout_editor_absoluteY="199dp">
@@ -157,9 +160,9 @@
 
                     <!-- Title, secondary and supporting text -->
                     <TextView
-                        android:layout_marginTop="30dp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
                         android:text="@string/college"
                         android:textAppearance="?attr/textAppearanceHeadline6" />
 
@@ -707,12 +710,13 @@
             android:id="@+id/contact"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
             android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
             android:text="Profiles/websites"
             android:textSize="25sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/card" />
+
         <com.google.android.material.card.MaterialCardView
             android:id="@+id/card4"
             android:layout_width="match_parent"
@@ -728,30 +732,37 @@
             app:layout_constraintVertical_bias="0.0"
             app:strokeColor="@color/material_on_surface_stroke"
             app:strokeWidth="1dp">
+
             <HorizontalScrollView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
-            <GridLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-                android:rowCount="1"
-                android:columnCount="5">
+
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:columnCount="5"
+                    android:rowCount="1">
+
                     <ImageButton
                         android:id="@+id/codechefButton"
                         android:foreground="?attr/selectableItemBackgroundBorderless"
                         android:src="@drawable/codechef" />
+
                     <ImageButton
                         android:id="@+id/linkedinButton"
                         android:foreground="?attr/selectableItemBackgroundBorderless"
                         android:src="@drawable/linkedin" />
+
                     <ImageButton
                         android:id="@+id/codeforcesButton"
                         android:foreground="?attr/selectableItemBackgroundBorderless"
                         android:src="@drawable/codeforces" />
+
                     <ImageButton
                         android:id="@+id/GithubButton"
                         android:foreground="?attr/selectableItemBackgroundBorderless"
                         android:src="@drawable/github" />
+
                     <ImageButton
                         android:id="@+id/hakerrankButton"
                         android:foreground="?attr/selectableItemBackgroundBorderless"
@@ -760,25 +771,27 @@
             </HorizontalScrollView>
 
         </com.google.android.material.card.MaterialCardView>
+
         <TextView
             android:id="@+id/contacted"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="25sp"
-            android:text="Contact"
-            app:layout_constraintTop_toBottomOf="@+id/card4"
-            app:layout_constraintStart_toStartOf="parent"
             android:layout_marginStart="15dp"
-            android:layout_marginTop="15dp"/>
+            android:layout_marginTop="15dp"
+            android:text="Contact"
+            android:textSize="25sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/card4" />
+
         <com.google.android.material.card.MaterialCardView
             android:id="@+id/card5"
-            app:layout_constraintTop_toBottomOf="@+id/contacted"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
             app:cardElevation="0dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/contacted"
             app:strokeColor="@color/material_on_surface_stroke"
             app:strokeWidth="1dp"
             tools:layout_editor_absoluteY="199dp">
@@ -800,6 +813,14 @@
                     app:layout_constraintVertical_bias="0.029" />
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_begin="20dp" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 

@@ -50,6 +50,7 @@ class AboutFragment : Fragment() {
             val intent = Intent(Intent.ACTION_VIEW, uri)
             startActivity(intent)
         }
+
         return binding.root
     }
 }
